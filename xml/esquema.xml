@@ -1,0 +1,181 @@
+<!--
+<!DOCTYPE questions SYSTEM "preguntas_esquema.dtd">
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+<!--Pregunta 1 Parte 1-->
+  <pregunta id="q1A">
+    <tipo>text</tipo>
+    <enunciado>1.Escribe el nombre de la casa de Hogwarts que representan los siguientes escudos:</enunciado>
+    <respuesta>Ravenclaw</respuesta>
+  </pregunta>
+
+<!--Pregunta 1 Parte 2-->
+  <pregunta id="q1B">
+    <tipo>text</tipo>
+    <enunciado></enunciado>
+    <respuesta>Gryffindor</respuesta>
+  </pregunta>
+
+<!--Pregunta 1 Parte 3-->
+  <pregunta id="q1C">
+    <tipo>text</tipo>
+    <enunciado></enunciado>
+    <respuesta>Slytherin</respuesta>
+  </pregunta>
+
+<!--Pregunta 1 Parte 4-->
+  <pregunta id="q1D">
+    <tipo>text</tipo>
+    <enunciado></enunciado>
+    <respuesta>Huffelpuff</respuesta>
+  </pregunta>
+
+<!--Pregunta 2-->
+  <pregunta id="q2">
+    <tipo>multiple</tipo>
+    <enunciado>2. Marca los rasgos de cada casa (dos de cada uno):</enunciado>
+      <opcion>Ambición</opcion>
+      <opcion>Auto-preservación</opcion>
+      <opcion>Caballerosidad</opcion>
+      <opcion>Dedicación</opcion>
+      <opcion>Ingenio</opcion>
+      <opcion>Inteligencia</opcion>
+      <opcion>Lealtad</opcion>
+      <opcion>Valor</opcion>
+      <opcion>Ambición</opcion>
+      <opcion>Auto-preservación</opcion>
+      <opcion>Caballerosidad</opcion>
+      <opcion>Dedicación</opcion>
+      <opcion>Ingenio</opcion>
+      <opcion>Inteligencia</opcion>
+      <opcion>Lealtad</opcion>
+      <opcion>Valor</opcion>
+      <opcion>Ambición</opcion>
+      <opcion>Auto-preservación</opcion>
+      <opcion>Caballerosidad</opcion>
+      <opcion>Dedicación</opcion>
+      <opcion>Ingenio</opcion>
+      <opcion>Inteligencia</opcion>
+      <opcion>Lealtad</opcion>
+      <opcion>Valor</opcion>
+      <opcion>Ambición</opcion>
+      <opcion>Auto-preservación</opcion>
+      <opcion>Caballerosidad</opcion>
+      <opcion>Dedicación</opcion>
+      <opcion>Ingenio</opcion>
+      <opcion>Inteligencia</opcion>
+      <opcion>Lealtad</opcion>
+      <opcion>Valor</opcion>
+    <respuesta>3</respuesta>
+    <respuesta>8</respuesta>
+    <respuesta>12</respuesta>
+    <respuesta>15</respuesta>
+    <respuesta>21</respuesta>
+    <respuesta>22</respuesta>
+    <respuesta>25</respuesta>
+    <respuesta>26</respuesta>
+  </pregunta>
+
+<!--Pregunta 3-->
+  <pregunta id="q3">
+    <tipo>radio</tipo>
+    <enunciado>3. ¿Quién impulsó la aceptación de muggles en Hogwarts?</enunciado>
+      <opcion>Godric Gryffindor</opcion>
+      <opcion>Helga Huffelpuff</opcion>
+      <opcion>Rowena Ravenclaw</opcion>
+      <opcion>Salazar Slytherin</opcion>
+    <respuesta>2</respuesta>
+  </pregunta>
+
+<!--Pregunta 4 Parte 1-->
+  <pregunta id="q4A">
+    <tipo>text</tipo>
+    <enunciado>4. ¿Quién es conocida como la 'Dama Gris'?</enunciado>
+    <respuesta>Helena Ravenclaw</respuesta>
+  </pregunta>
+
+<!--Pregunta 5-->
+  <pregunta id="q5">
+    <tipo>select</tipo>
+    <enunciado>5. ¿Entre qué años se desarrolló la I Guerra Mágica?</enunciado>
+      <opcion>1940 - 1970</opcion>
+      <opcion>1979 - 1981</opcion>
+      <opcion>1995 - 1998</opcion>
+      <opcion>1970 - 1981</opcion>
+    <respuesta>4</respuesta>
+  </pregunta>
+
+<!--Pregunta 6-->
+  <pregunta id="q6">
+    <tipo>checkbox/tipo>
+    <enunciado>6. ¿Cuáles de los siguientes magos formaron parte de la Orden del Fénix?</enunciado>
+      <opcion>Alice Longbottom</opcion>
+      <opcion>Peter Pettigrew</opcion>
+      <opcion>Lucius Malfoy</opcion>
+      <opcion>Alecto Carrow</opcion>
+      <opcion>Sirius Black</opcion>
+      <opcion>Severus Snape</opcion>
+      <opcion>Dolores Umbridge</opcion>
+      <opcion>James Potter</opcion>
+    <respuesta>2</respuesta>
+    <respuesta>5</respuesta>
+    <respuesta>8</respuesta>
+  </pregunta>
+
+<!--Pregunta 7-->
+  <pregunta id="q7">
+    <tipo>radio</tipo>
+    <enunciado>7. ¿Quién ocupa el cargo de Ministro de Magia en 1996 tras la dimisión de Cornelius Oswald Fudge?</enunciado>
+      <opcion>Kingsley Shackelbolt</opcion>
+      <opcion>Rufus Scrimgeour</opcion>
+      <opcion>Albus Dumbledore</opcion>
+      <opcion>Pius Ticknesse</opcion>
+    <respuesta>2</respuesta>
+  </pregunta>
+
+<!--Pregunta 8-->
+  <pregunta id="q8">
+    <tipo>select</tipo>
+    <enunciado>8. ¿Dónde y cuándo terminó la II Guerra Mágica?</enunciado>
+      <opcion>Batalla sobre Little Whinging 1970</opcion>
+      <opcion>Batalla de Hogsmeade 1975</opcion>
+      <opcion>Batalla del Ministerio de Magia 1997</opcion>
+      <opcion>Batalla de Hogwarts mayo de 1998</opcion>
+    <respuesta>4</respuesta>
+  </pregunta>
+
+<!--Pregunta 9-->
+  <pregunta id="q9">
+    <tipo>multiple</tipo>
+    <enunciado>9. Selecciona los magos que han entrado en el Club de las Eminencias o "Slug Club":</enunciado>
+      <option>Albus Dumbledore</option>
+      <option>Regulus Black</option>
+      <option>Tom Riddle</option>
+      <option>Sybill Trelawney</option>
+      <option>Severus Snape</option>
+      <option>Lily Evans</option>
+      <option>Neville Longbottom</option>
+      <option>Cedric Diggory</option>
+      <option>Marcus Belby</option>
+      <option>Hermione Granger</option>
+      <option>Cho Chang</option>
+      <option>Hestia Carrow</option>
+    <respuesta>3</respuesta>
+    <respuesta>5</respuesta>
+    <respuesta>6</respuesta>
+    <respuesta>10</respuesta> <!--Falta respuesta para select multiple-->
+  </pregunta>
+
+<!--Pregunta 10-->
+  <pregunta id="q10">
+    <tipo>radio</tipo>
+    <enunciado>10. ¿Quién escribio 'Historia de la Magia'?</enunciado>
+      <opcion>Gaspard Shingleton</opcion>
+      <opcion>Cuthbert Binns</opcion>
+      <opcion>Gilderoy Lockhart</opcion>
+      <opcion>Bathilda Bagshot</opcion>
+      <opcion>Artemisia Lufkin</opcion>
+    <respuesta>4</respuesta>
+  </pregunta>
+</test>

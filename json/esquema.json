@@ -1,0 +1,185 @@
+{"test" : [
+  { "tipo" : "text",
+    "enunciado" : "1.Escribe el nombre de la casa de Hogwarts que representan los siguientes escudos:",
+    "respuesta" : "Ravenclaw"
+  }
+
+  { "tipo" : "",
+    "enunciado" : "",
+    "respuesta" : ""
+  }
+
+  { "tipo" : "",
+    "enunciado" : "",
+    "respuesta" : ""
+  }
+
+  { "tipo" : "",
+    "enunciado" : "",
+    "respuesta" : ""
+  }
+
+  { "tipo" : "multiple",
+    "enunciado" : "2.Marca los rasgos de cada casa (dos de cada uno):",
+    "opcion" : [
+                "Ambición",
+                "Auto-preservación",
+                "Caballerosidad",
+                "Dedicación",
+                "Ingenio",
+                "Inteligencia",
+                "Lealtad",
+                "Valor",
+                "Ambición",
+                "Auto-preservación",
+                "Caballerosidad",
+                "Dedicación",
+                "Ingenio",
+                "Inteligencia",
+                "Lealtad",
+                "Valor",
+                "Ambición",
+                "Auto-preservación",
+                "Caballerosidad",
+                "Dedicación",
+                "Ingenio",
+                "Inteligencia",
+                "Lealtad",
+                "Valor",
+                "Ambición",
+                "Auto-preservación",
+                "Caballerosidad",
+                "Dedicación",
+                "Ingenio",
+                "Inteligencia",
+                "Lealtad",
+                "Valor"
+              ],
+    "respuesta" : [
+                  "2",
+                  "7",
+                  "11",
+                  "14",
+                  "20",
+                  "21",
+                  "24",
+                  "25"
+                ],
+  }
+
+  { "tipo" : "radio",
+    "enunciado" : "3.¿Quién impulsó la aceptación de muggles en Hogwarts?",
+    "opcion" : [
+                "Godric Gryffindor",
+                "Helga Huffelpuff" ,
+                "Rowena Ravenclaw",
+                "Salazar Slytherin"
+              ],
+    "respuesta" : "2"
+  }
+
+  { "tipo" : "text",
+    "enunciado" : "4.¿Quién es conocida como la 'Dama Gris'?",
+    "respuesta" : "Helena Ravenclaw"
+  }]
+}
+
+
+<!--Pregunta 4 Parte 1-->
+  <pregunta id="q4A">
+    <tipo>text</tipo>
+    <enunciado>4. ¿Quién es conocida como la 'Dama Gris'? ¿Qué sabes de ella?</enunciado>
+    <respuesta>Helena Ravenclaw</respuesta>
+  </pregunta>
+
+<!--Pregunta 4 Parte 2-->
+  <pregunta id="q4B">
+    <tipo>textarea</tipo>
+    <enunciado>4. ¿Quién es conocida como la 'Dama Gris'? ¿Qué sabes de ella?</enunciado>
+    <respuesta>La dama gris ...</respuesta> <!--Falta respuesta para textarea-->
+  </pregunta>
+
+<!--Pregunta 5-->
+  <pregunta id="q5">
+    <tipo>select</tipo>
+    <enunciado>5. ¿Entre qué años se desarrolló la I Guerra Mágica?</enunciado>
+      <opcion>1940 - 1970</opcion>
+      <opcion>1979 - 1981</opcion>
+      <opcion>1995 - 1998</opcion>
+      <opcion>1970 - 1981</opcion>
+    <respuesta>4</respuesta>
+  </pregunta>
+
+<!--Pregunta 6-->
+  <pregunta id="q6">
+    <tipo>checkbox/tipo>
+    <enunciado>6. ¿Cuáles de los siguientes magos formaron parte de la Orden del Fénix?</enunciado>
+      <opcion>Alice Longbottom</opcion>
+      <opcion>Peter Pettigrew</opcion>
+      <opcion>Lucius Malfoy</opcion>
+      <opcion>Alecto Carrow</opcion>
+      <opcion>Sirius Black</opcion>
+      <opcion>Severus Snape</opcion>
+      <opcion>Dolores Umbridge</opcion>
+      <opcion>James Potter</opcion>
+    <respuesta>2</respuesta>
+    <respuesta>5</respuesta>
+    <respuesta>8</respuesta>
+  </pregunta>
+
+<!--Pregunta 7-->
+  <pregunta id="q7">
+    <tipo>radio</tipo>
+    <enunciado>7. ¿Quién ocupa el cargo de Ministro de Magia en 1996 tras la dimisión de Cornelius Oswald Fudge?</enunciado>
+      <opcion>Kingsley Shackelbolt</opcion>
+      <opcion>Rufus Scrimgeour</opcion>
+      <opcion>Albus Dumbledore</opcion>
+      <opcion>Pius Ticknesse</opcion>
+    <respuesta>2</respuesta>
+  </pregunta>
+
+<!--Pregunta 8-->
+  <pregunta id="q8">
+    <tipo>select</tipo>
+    <enunciado>8. ¿Dónde y cuándo terminó la II Guerra Mágica?</enunciado>
+      <opcion>Batalla sobre Little Whinging 1970</opcion>
+      <opcion>Batalla de Hogsmeade 1975</opcion>
+      <opcion>Batalla del Ministerio de Magia 1997</opcion>
+      <opcion>Batalla de Hogwarts mayo de 1998</opcion>
+    <respuesta>4</respuesta>
+  </pregunta>
+
+<!--Pregunta 9-->
+  <pregunta id="q9">
+    <tipo>multiple</tipo>
+    <enunciado>9. Selecciona los magos que han entrado en el Club de las Eminencias o "Slug Club":</enunciado>
+      <option>Albus Dumbledore</option>
+      <option>Regulus Black</option>
+      <option>Tom Riddle</option>
+      <option>Sybill Trelawney</option>
+      <option>Severus Snape</option>
+      <option>Lily Evans</option>
+      <option>Neville Longbottom</option>
+      <option>Cedric Diggory</option>
+      <option>Marcus Belby</option>
+      <option>Hermione Granger</option>
+      <option>Cho Chang</option>
+      <option>Hestia Carrow</option>
+    <respuesta>3</respuesta>
+    <respuesta>5</respuesta>
+    <respuesta>6</respuesta>
+    <respuesta>10</respuesta> <!--Falta respuesta para select multiple-->
+  </pregunta>
+
+<!--Pregunta 10-->
+  <pregunta id="q10">
+    <tipo>radio</tipo>
+    <enunciado>10. ¿Quién escribio 'Historia de la Magia'?</enunciado>
+      <opcion>Gaspard Shingleton</opcion>
+      <opcion>Cuthbert Binns</opcion>
+      <opcion>Gilderoy Lockhart</opcion>
+      <opcion>Bathilda Bagshot</opcion>
+      <opcion>Artemisia Lufkin</opcion>
+    <respuesta>4</respuesta>
+  </pregunta>
+</test>
