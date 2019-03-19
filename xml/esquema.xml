@@ -1,7 +1,5 @@
-<!--
-<!DOCTYPE questions SYSTEM "preguntas_esquema.dtd">
--->
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?><!--
+<!DOCTYPE questions SYSTEM "preguntas_esquema.dtd">-->
 <test>
 <!--Pregunta 1 Parte 1-->
   <pregunta id="q1A">
@@ -89,7 +87,7 @@
   </pregunta>
 
 <!--Pregunta 4 Parte 1-->
-  <pregunta id="q4A">
+  <pregunta id="q4">
     <tipo>text</tipo>
     <enunciado>4. ¿Quién es conocida como la 'Dama Gris'?</enunciado>
     <respuesta>Helena Ravenclaw</respuesta>
@@ -108,7 +106,7 @@
 
 <!--Pregunta 6-->
   <pregunta id="q6">
-    <tipo>checkbox/tipo>
+    <tipo>checkbox</tipo>
     <enunciado>6. ¿Cuáles de los siguientes magos formaron parte de la Orden del Fénix?</enunciado>
       <opcion>Alice Longbottom</opcion>
       <opcion>Peter Pettigrew</opcion>

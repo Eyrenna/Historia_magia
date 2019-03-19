@@ -32,7 +32,7 @@ header h1{
   background-image: url(../images/back_form2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0 17em;
+  margin: 0 20%;
 }
 #form img {
   border-radius: 25%;
@@ -65,4 +65,19 @@ footer p {
 }
 .othercolor {
   color: #D1A747;
+}
+
+/*_________RESPONSIVE__________*/
+
+
+@media screen and (max-width: 545px) {
+  #form {
+    margin: 0 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  header {
+    width: 100%;
+  }
 }
